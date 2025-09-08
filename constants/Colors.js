@@ -1,0 +1,61 @@
+import { MD3DarkTheme, MD3LightTheme } from 'react-native-paper';
+
+export const LightTheme = {
+  ...MD3LightTheme,
+  colors: {
+    ...MD3LightTheme.colors,
+    primary: '#0C3415',
+    secondary: '#4CAF50',
+    background: '#FFFFFF',
+    surface: '#F8FDF9',
+    text: '#0C3415',
+    onSurface: '#0C3415',
+    onBackground: '#0C3415',
+    subtitle: '#666666',
+    shadow: '#0C3415',
+    accent: '#81C784',
+    gradient:  [ '#91D991','#FFFFFF'],
+    decorative: '#0C341510',
+  },
+  fonts: {
+    bodyLarge: { fontFamily: 'Poppins_400Regular' },
+    bodyMedium: { fontFamily: 'Poppins_400Regular' },
+    bodySmall: { fontFamily: 'Poppins_400Regular' },
+    titleLarge: { fontFamily: 'Poppins_700Bold' },
+    titleMedium: { fontFamily: 'Poppins_600SemiBold' },
+    titleSmall: { fontFamily: 'Poppins_600SemiBold' },
+    labelLarge: { fontFamily: 'Poppins_500Medium' },
+    labelMedium: { fontFamily: 'Poppins_500Medium' },
+    labelSmall: { fontFamily: 'Poppins_500Medium' },
+  },
+};
+
+export const DarkTheme = {
+  ...MD3DarkTheme,
+  colors: {
+    ...MD3DarkTheme.colors,
+    primary: '#4CAF50',
+    secondary: '#81C784',
+    background: '#0A0A0A',
+    surface: '#1A2F1C',
+    text: '#FFFFFF',
+    onSurface: '#FFFFFF',
+    onBackground: '#FFFFFF',
+    subtitle: '#B0B0B0',
+    shadow: '#000000',
+    accent: '#66BB6A',
+    gradient: ['#0A0A0A', '#1A2F1C'],
+    decorative: '#4CAF5010',
+  },
+  fonts: {
+    bodyLarge: { fontFamily: 'Poppins_400Regular' },
+    bodyMedium: { fontFamily: 'Poppins_400Regular' },
+    bodySmall: { fontFamily: 'Poppins_400Regular' },
+    titleLarge: { fontFamily: 'Poppins_700Bold' },
+    titleMedium: { fontFamily: 'Poppins_600SemiBold' },
+    titleSmall: { fontFamily: 'Poppins_600SemiBold' },
+    labelLarge: { fontFamily: 'Poppins_500Medium' },
+    labelMedium: { fontFamily: 'Poppins_500Medium' },
+    labelSmall: { fontFamily: 'Poppins_500Medium' },
+  },
+};
